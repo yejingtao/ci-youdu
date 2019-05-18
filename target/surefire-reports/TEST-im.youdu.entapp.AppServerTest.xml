@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="im.youdu.entapp.AppServerTest" time="0" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\software\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\workspace\auto-plug\ci-youdu"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\workspace\auto-plug\ci-youdu"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\software\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\jingt\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\workspace\auto-plug\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4440699430283973097.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\software\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/software/jre/bin/server;C:/software/jre/bin;C:/software/jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Python36;C:\software\work\Git\cmd;C:\Python36\Lib\site-packages;C:\software\groovy\groovy-2.5.0\bin;C:\software\java\bin;C:\software\gradle\gradle-4.8\bin;C:\Users\jingt\AppData\Local\Microsoft\WindowsApps;;C:\software\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\jingt"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="jingt"/>
+    <property name="java.class.path" value="C:\software\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\software\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\software\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\software\jre\lib\resources.jar;C:\software\jre\lib\rt.jar;C:\software\jre\lib\sunrsasign.jar;C:\software\jre\lib\jsse.jar;C:\software\jre\lib\jce.jar;C:\software\jre\lib\charsets.jar;C:\software\jre\lib\jfr.jar;C:\software\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\workspace\auto-plug\ci-youdu\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="warning" classname="junit.framework.TestSuite$1" time="0">
+    <failure message="Exception in constructor: testStart (im.youdu.entapp.exception.ServiceException: Address already in use: bind&#10;	at im.youdu.entapp.AppServer.&lt;init&gt;(AppServer.java:33)&#10;	at im.youdu.entapp.AppServerTest.&lt;init&gt;(AppServerTest.java:21)&#10;	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#10;	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#10;	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#10;	at junit.framework.TestSuite.createTest(TestSuite.java:60)&#10;	at junit.framework.TestSuite.addTestMethod(TestSuite.java:307)&#10;	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:150)&#10;	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:129)&#10;	at org.junit.internal.runners.JUnit38ClassRunner.&lt;init&gt;(JUnit38ClassRunner.java:74)&#10;	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)&#10;	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)&#10;	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)&#10;	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)&#10;	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)&#10;Caused by: java.net.BindException: Address already in use: bind&#10;	at sun.nio.ch.Net.bind0(Native Method)&#10;	at sun.nio.ch.Net.bind(Unknown Source)&#10;	at sun.nio.ch.Net.bind(Unknown Source)&#10;	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)&#10;	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)&#10;	at sun.net.httpserver.ServerImpl.&lt;init&gt;(Unknown Source)&#10;	at sun.net.httpserver.HttpServerImpl.&lt;init&gt;(Unknown Source)&#10;	at sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(Unknown Source)&#10;	at com.sun.net.httpserver.HttpServer.create(Unknown Source)&#10;	at im.youdu.entapp.AppServer.&lt;init&gt;(AppServer.java:31)&#10;	... 22 more&#10;)" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: Exception in constructor: testStart (im.youdu.entapp.exception.ServiceException: Address already in use: bind
+	at im.youdu.entapp.AppServer.<init>(AppServer.java:33)
+	at im.youdu.entapp.AppServerTest.<init>(AppServerTest.java:21)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at junit.framework.TestSuite.createTest(TestSuite.java:60)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:307)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:150)
+	at junit.framework.TestSuite.<init>(TestSuite.java:129)
+	at org.junit.internal.runners.JUnit38ClassRunner.<init>(JUnit38ClassRunner.java:74)
+	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at sun.net.httpserver.ServerImpl.<init>(Unknown Source)
+	at sun.net.httpserver.HttpServerImpl.<init>(Unknown Source)
+	at sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(Unknown Source)
+	at com.sun.net.httpserver.HttpServer.create(Unknown Source)
+	at im.youdu.entapp.AppServer.<init>(AppServer.java:31)
+	... 22 more
+)
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
+]]></failure>
+  </testcase>
+</testsuite>

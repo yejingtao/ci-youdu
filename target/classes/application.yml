@@ -1,0 +1,17 @@
+server:
+  port: 8098
+
+spring:
+  application:
+    name: ci-youdu
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8111/eureka/
+      
+logging:
+  file: logs/${spring.application.name}.log
+  
+youdu:
+  address: im.imgo.tv:7080
