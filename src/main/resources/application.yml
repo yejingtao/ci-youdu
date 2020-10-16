@@ -14,4 +14,4 @@ logging:
   file: logs/${spring.application.name}.log
   
 youdu:
-  address: im.imgo.tv:7080
+  address: your.server.address:port
